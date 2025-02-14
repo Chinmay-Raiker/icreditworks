@@ -1,0 +1,112 @@
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLight.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayLightItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 100;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayXXThin.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 100;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayXXThinItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 200;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayXThin.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 200;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayXThinItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayThin.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayThinItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 500;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRoman.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 500;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayRomanItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 600;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediumItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBold.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBoldItalic.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlack.woff") format("woff");
+}
+@font-face {
+	font-family: "Neue Haas Grotesk Display Pro";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Neue Haas Grotesk Display Pro"),
+		url("../assets/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayBlackItalic.woff") format("woff");
+}

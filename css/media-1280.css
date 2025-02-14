@@ -1,0 +1,166 @@
+@media screen and (max-width: 1280px) {
+	.form-container {
+		position: relative;
+		width: 309.54px;
+		height: 460px;
+	}
+	.form-logo-img {
+		width: 129.09px;
+		height: 39.53px;
+	}
+	.form-div .form-title {
+		font-size: 15.33px;
+		font-style: normal;
+		font-weight: 600;
+		margin: 15px 5px;
+	}
+	.form-div {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding: 10px 13px;
+	}
+	.form .form-field-container {
+		gap: 9.58px;
+		align-items: start;
+		width: 100%;
+	}
+
+	.text-field {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 19.5px 13.5px 21px;
+		height: 43.12px;
+		color: #555;
+		font-size: 15.33px;
+		font-style: normal;
+		font-weight: 450;
+		line-height: normal;
+		border-radius: 0px;
+		border: 1px solid #999;
+		outline: none;
+	}
+	.field-icon {
+		position: absolute;
+		right: 25px;
+		width: 23px;
+		height: 23px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.checkbox-field .checkbox {
+		width: 15.33px;
+		height: 15.33px;
+		margin: 0px;
+	}
+	.checkbox-field .checkbox-title {
+		color: #111;
+		font-size: 11.5px;
+		font-style: normal;
+		font-weight: 450;
+		line-height: 18px;
+	}
+	.form .form-actions-container {
+		gap: 45px;
+	}
+	.form-actions-container .button {
+		width: 127.46px;
+		height: 38.33px;
+		font-size: 15.33px;
+	}
+	.form-actions-container .link {
+		font-size: 13.42px;
+	}
+	.button {
+		width: 127.46px;
+		height: 38.33px;
+		font-size: 15.33px;
+	}
+	.form-container .footer-container {
+		display: flex;
+		width: 100%;
+		height: 30.67px;
+		position: absolute;
+		bottom: 0;
+	}
+	.lock-img {
+		width: 13px;
+		height: 15px;
+	}
+	.footer .footer-text {
+		font-size: 12.46px;
+	}
+	.main-text-container {
+		font-size: 10px;
+		width: 240px;
+	}
+	.main-text-container .title {
+		font-size: 2.25rem;
+		font-weight: 600;
+		line-height: 40px;
+		letter-spacing: -0.9px;
+	}
+
+	.main-text-container .description {
+		font-size: 0.8125rem;
+		font-weight: 450;
+		line-height: 20px;
+	}
+	.circle-logo-container {
+		gap: 18.95px;
+		position: absolute;
+		right: 140px;
+		top: -90px;
+		max-width: 404px;
+		max-height: 404px;
+	}
+	.circle-logo-container .intro {
+		width: 210.96px;
+		height: 25.94px;
+		position: absolute;
+		top: 130.43px;
+		left: 95.98px;
+	}
+
+	.circle-logo-container .logo-container {
+		margin-bottom: 124.95px;
+		width: 322.73px;
+		height: 98.5px;
+	}
+
+	.monitor-img {
+		position: absolute;
+		right: -10px;
+		top: 227px;
+		z-index: 2;
+	}
+	.floating-profile img {
+		width: 55.45px;
+		height: 55.45px;
+	}
+	.form-div .form {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.floating-profile {
+		position: absolute;
+		bottom: 5px;
+		right: 18px;
+		z-index: 10000;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.form-container {
+		max-width: 348.234px;
+	}
+
+	.main-text-container {
+		font-size: 20px;
+	}
+
+	.description {
+		font-size: 15px;
+	}
+}

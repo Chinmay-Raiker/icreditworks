@@ -1,0 +1,84 @@
+@media screen and (max-width: 375px) {
+	.main-text-container,
+	.background-work,
+	.floating-profile {
+		display: none;
+	}
+	.container {
+		padding-left: 0%;
+	}
+	.form-container {
+		min-width: 100%;
+        min-height: 100%;
+        border-radius: 0px;
+        height: 100vh;
+	}
+	.form-container .form-logo {
+		padding-top: 11.84px;
+		padding-bottom: 13.36px;
+		border-bottom: 3.72px solid #ea731f;
+	}
+ 	.form-logo-img {
+		width: 167px;
+		height: 51.2px;
+	}
+	.form-div {
+		display: flex;
+		flex-direction: column;
+		gap: 51px;
+		padding: 35.5px 26px 23px;
+        height: 100%;
+	}
+
+	.form-div .form-title {
+		font-size: 20.8px;
+		font-weight: 600;
+	}
+
+	.form-div .form {
+		gap: 51px;
+	}
+
+	.form .form-field-container {
+		gap: 18px;
+	}
+	.text-field {
+		padding: 15px 9px 15px;
+		font-size: 16px;
+        width: 100%;
+	}
+	.form-field-container .checkbox-field {
+		gap: 12px;
+	}
+	.checkbox-field .checkbox-title {
+		font-size: 15.6px;
+	}
+	
+	.form .form-actions-container {
+		gap: 92px;
+	}
+	.form-actions-container .link {
+		font-size: 18.2px;
+		font-weight: 450;
+	}
+	
+	.form-actions-container .button {
+		width: 146px;
+		height: 44px;
+		font-size: 17.6px;
+		line-height: normal;
+		letter-spacing: 0.55px;
+	}
+	
+	.form-container .footer-container {
+        border-radius: 0px;
+		height: 36px;
+	}
+	.footer-container .footer {
+		gap: 7.89px;
+	}
+	.footer .footer-text {
+		font-size: 13px;
+		line-height: 18px;
+	}
+}

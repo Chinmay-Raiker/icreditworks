@@ -1,0 +1,146 @@
+@media screen and (max-width: 1440px) {
+	.container {
+		padding-left: 4.93%;
+		gap: 70px;
+	}
+	.form-div {
+		gap: 36.6px;
+		padding: 21.56px 23px 29.11px;
+	}
+
+	.form-div .form {
+		gap: 36.6px;
+	}
+	.form-container {
+		max-width: 348.234px;
+		max-height: 517px;
+	}
+	.form-div .form-title {
+		font-size: 18px;
+		font-weight: 600;
+	}
+	.form-container .form-logo {
+		padding-top: 12.02px;
+		padding-bottom: 12.05px;
+		border-bottom: 3.23px solid #ea731f;
+	}
+
+	.form .form-field-container {
+		gap: 10px;
+	}
+
+	.checkbox-field .checkbox {
+		width: 17.25px;
+		height: 17.25px;
+		margin: 0px;
+	}
+
+	.checkbox-field .checkbox-title {
+		color: #111;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 450;
+		line-height: normal;
+	}
+
+	.form-field-container .checkbox-field {
+		gap: 10px;
+	}
+
+	.form-logo-img {
+		width: 145px;
+		height: 44.5px;
+	}
+
+	.text-field {
+		width: 301px;
+		height: 48.516px;
+		font-size: 18px;
+	}
+
+	.form .form-actions-container {
+		gap: 63px;
+	}
+
+	.form-actions-container .link {
+		font-size: 15px;
+	}
+
+	.form-actions-container .button {
+		width: 143.625px;
+		height: 43.75px;
+		font-size: 17px;
+	}
+
+	.form-container .footer-container {
+		height: 34.5px;
+	}
+
+	.footer-container .footer {
+		gap: 8.33px;
+	}
+
+	.footer .footer-text {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.main-text-container {
+		font-size: 20px;
+		max-width: 278px;
+		gap: 27.95px;
+		width: 278px;
+	}
+
+	.main-text-container .title {
+		font-size: 2.15rem;
+		line-height: 35px;
+		letter-spacing: 2.96px;
+	}
+
+	.main-text-container .description {
+		font-size: 0.93rem;
+		font-weight: 450;
+		line-height: 19.91px;
+	}
+
+	.floating-profile {
+		position: absolute;
+		bottom: 18px;
+		right: 18px;
+		bottom: 19.12px;
+		right: 21.38px;
+		width: 75.375px;
+		height: 75.375px;
+	}
+
+	.circle-logo-container {
+		gap: 16.48px;
+		right: 134px;
+		top: -122px;
+		background: #fff;
+		border-radius: 50%;
+		max-width: 454.5px;
+		max-height: 454.5px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.circle-logo-container .intro {
+		height: 30.536px;
+		width: 248.205px;
+	}
+
+	.circle-logo-container .logo-container {
+		margin-bottom: 124.95px;
+		width: 361.73px;
+		height: 110.78px;
+	}
+
+	.monitor-img {
+		right: 14px;
+		top: 280px;
+		width: 620px;
+		height: 520px;
+	}
+}
