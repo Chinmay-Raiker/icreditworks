@@ -9,16 +9,16 @@
 	}
 	.form-container {
 		min-width: 100%;
-        min-height: 100%;
-        border-radius: 0px;
-        height: 100vh;
+		min-height: 100%;
+		border-radius: 0px;
+		height: 100vh;
 	}
 	.form-container .form-logo {
 		padding-top: 11.84px;
 		padding-bottom: 13.36px;
 		border-bottom: 3.72px solid #ea731f;
 	}
- 	.form-logo-img {
+	.form-logo-img {
 		width: 167px;
 		height: 51.2px;
 	}
@@ -27,7 +27,7 @@
 		flex-direction: column;
 		gap: 51px;
 		padding: 35.5px 26px 23px;
-        height: 100%;
+		height: 100%;
 	}
 
 	.form-div .form-title {
@@ -45,7 +45,7 @@
 	.text-field {
 		padding: 15px 9px 15px;
 		font-size: 16px;
-        width: 100%;
+		width: 100%;
 	}
 	.form-field-container .checkbox-field {
 		gap: 12px;
@@ -53,7 +53,7 @@
 	.checkbox-field .checkbox-title {
 		font-size: 15.6px;
 	}
-	
+
 	.form .form-actions-container {
 		gap: 92px;
 	}
@@ -61,7 +61,7 @@
 		font-size: 18.2px;
 		font-weight: 450;
 	}
-	
+
 	.form-actions-container .button {
 		width: 146px;
 		height: 44px;
@@ -69,9 +69,9 @@
 		line-height: normal;
 		letter-spacing: 0.55px;
 	}
-	
+
 	.form-container .footer-container {
-        border-radius: 0px;
+		border-radius: 0px;
 		height: 36px;
 	}
 	.footer-container .footer {
@@ -80,5 +80,51 @@
 	.footer .footer-text {
 		font-size: 13px;
 		line-height: 18px;
+	}
+
+	.styled-checkbox {
+		position: absolute;
+		opacity: 0;
+
+		& + label {
+			font-size: 11.5px;
+			font-style: normal;
+			font-weight: 450;
+			line-height: 20px;
+			color: black;
+			position: relative;
+			cursor: pointer;
+			padding: 0;
+		}
+
+		& + label:before {
+			content: "";
+			margin-right: 10px;
+			display: inline-block;
+			vertical-align: text-top;
+			width: 13px;
+			height: 13px;
+			background: white;
+			border: 1px solid #999;
+			transform: translateY(-2px);
+		}
+
+		&:checked + label:before {
+			background: white;
+		}
+		&:checked + label:after {
+			content: "";
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-image: url("../assets/imgs/check.png");
+			background-repeat: no-repeat;
+			background-size: 75%;
+			background-position: center;
+			border: 1px solid #999;
+			width: 13px;
+			height: 13px;
+			transform: translateY(2px);
+		}
 	}
 }

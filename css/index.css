@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	color: #fff;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 h1,
@@ -42,7 +43,6 @@ p {
 
 .background-work {
 	position: relative;
-	/* right: 0px; */
 	width: 829px;
 	height: 100vh;
 	z-index: 1;
@@ -52,7 +52,7 @@ p {
 .circle-logo-container {
 	display: flex;
 	flex-direction: column;
-	gap: 18.95px;
+	gap: 10.95px;
 	position: absolute;
 	right: 169px;
 	top: -167px;
@@ -69,6 +69,13 @@ p {
 
 .circle-logo-container .logo-container {
 	margin-bottom: 124.95px;
+}
+
+.circle-logo-container .intro-container {
+	font-size: 2.85rem;
+	letter-spacing: 3px;
+	font-family: "Times New Roman", Times, serif;
+	color: #3d3d3d;
 }
 
 .monitor-img {
@@ -264,13 +271,48 @@ p {
 	margin: 0px;
 }
 
-.checkbox-field .checkbox-title {
-	color: #111;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 450;
-	line-height: 18px;
+.styled-checkbox {
+	position: absolute;
+	opacity: 0;
+
+	& + label {
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 450;
+		line-height: 18px;
+		color: black;
+		position: relative;
+		cursor: pointer;
+		padding: 0;
+	}
+
+	& + label:before {
+		content: "";
+		margin-right: 10px;
+		display: inline-block;
+		vertical-align: text-top;
+		width: 20px;
+		height: 20px;
+		background: white;
+		border: 1px solid #999;
+		transform: translateY(-1px);
+	}
+
+	&:checked + label:before {
+		background: white;
+	}
+	&:checked + label:after {
+		content: "";
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		background-image: url("../assets/imgs/check.png");
+		background-repeat: no-repeat;
+		background-size: 75%;
+		background-position: center;
+		border: 1px solid #999;
+		width: 20px;
+		height: 20px;
+		transform: translateY(-1px);
+	}
 }
-
-
-

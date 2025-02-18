@@ -115,7 +115,7 @@
 	}
 
 	.circle-logo-container {
-		gap: 16.48px;
+		gap: 0.55px;
 		right: 134px;
 		top: -122px;
 		background: #fff;
@@ -126,9 +126,9 @@
 		height: 100%;
 	}
 
-	.circle-logo-container .intro {
-		height: 30.536px;
-		width: 248.205px;
+	.circle-logo-container .intro-container {
+		font-size: 2.25rem;
+		letter-spacing: 3px;
 	}
 
 	.circle-logo-container .logo-container {
@@ -142,5 +142,51 @@
 		top: 280px;
 		width: 620px;
 		height: 520px;
+	}
+
+	.styled-checkbox {
+		position: absolute;
+		opacity: 0;
+
+		& + label {
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 450;
+			line-height: 20px;
+			color: black;
+			position: relative;
+			cursor: pointer;
+			padding: 0;
+		}
+
+		& + label:before {
+			content: "";
+			margin-right: 10px;
+			display: inline-block;
+			vertical-align: text-top;
+			width: 13px;
+			height: 13px;
+			background: white;
+			border: 1px solid #999;
+			transform: translateY(-2px);
+		}
+
+		&:checked + label:before {
+			background: white;
+		}
+		&:checked + label:after {
+			content: "";
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background-image: url("../assets/imgs/check.png");
+			background-repeat: no-repeat;
+			background-size: 75%;
+			background-position: center;
+			border: 1px solid #999;
+			width: 13px;
+			height: 13px;
+			transform: translateY(1px);
+		}
 	}
 }
